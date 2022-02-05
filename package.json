@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "express-handlebars": "^6.0.2",
+    "express.js": "^1.0.0",
+    "jest": "^27.4.7",
+    "knex": "^0.95.15",
+    "nodemon": "^2.0.15",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.1"
+  },
+  "name": "mood-indicator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evelyntanwy/mood-indicator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evelyntanwy/mood-indicator/issues"
+  },
+  "homepage": "https://github.com/evelyntanwy/mood-indicator#readme",
+  "description": ""
+}

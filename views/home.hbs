@@ -1,0 +1,34 @@
+<div class="textbox">
+  <h1>Kia Ora!</h1>
+  <h2>What is your name?</h2>
+  <form method="POST" action="/mood">
+    <label>
+      Name:
+      <input type="text" name="myName" />
+    </label>
+    <button>Greet me!</button>
+  </form>
+</div>
+
+{{#each moodObj}}
+  <div>
+    <a href="/home/{{id}}"><img src="{{image}}" alt="{{quotes}}" />
+    </a>
+    <br />
+    <a>{{name}} <br /> Test</a>
+  </div>
+{{/each}}
+
+<div class="container">
+
+  <div class="shadow"></div>
+  <div class="cat">
+    <div class="ear"></div>
+    <div class="eye"></div>
+    <div class="mouth"></div>
+    <div class="nose"></div>
+    <div class="tail"></div>
+    <div class="body"></div>
+    <div class="bubble"></div>
+  </div>
+</div>
